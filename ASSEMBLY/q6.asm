@@ -5,4 +5,4 @@
 mov TMOD , #02H;
 mov TLO, #55H;
 mov THL, #55H;
-set TRO
+set TRO~

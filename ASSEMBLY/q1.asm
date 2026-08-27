@@ -16,6 +16,4 @@ next:  add A, @r0        ; add element pointed to by r0
        djnz r3, next     ; decrement counter, loop if not zero
 
 mov 26H, A         ; store sum in memory
-here:  sjmp here          ; stop execution (infinite loop)
-
-end
+here:  sjmp here          ; stop execution 
